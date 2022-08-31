@@ -1,0 +1,181 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: libre franklin;
+}
+
+#content{
+    justify-content: center;
+}
+
+.ping{
+    margin-top: 80px;
+    background-image: url(PING..png);
+    background-size: 100%;
+    height: 28px;
+    width: 90px;
+}
+
+.titre{   
+    margin-top: 40px;
+    display: flex;
+    width: 522px;
+}
+
+.launching{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #969696;
+}
+
+.soon{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #15202A;
+}
+
+.soustitre{
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.email{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.champ{
+    border-radius: 50px;
+    width: 421px;
+    height: 56px;
+    border-color: #B8C7ED;
+    text-indent: 20px;
+}
+
+.champ::placeholder{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B8C7ED;
+}
+
+.notify{
+    height: 56px;
+    width: 200px;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: #4c7bf3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+    box-shadow: 0px 3px #B8C7ED;
+    cursor: pointer;
+}
+
+.graph{
+    margin-top: 94px;
+    background-image: url(graph.png);
+    background-size: cover;
+    height: 383px;
+    width: 640px;
+}
+
+.reseaux{
+    background-image: url(reseaux.png);
+    background-size: cover;
+    Width: 118.65px;
+    Height: 31px;
+    margin-top: 72px;
+}
+
+.copyright{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #969696;
+    margin-bottom: 49px;
+}
+
+
+                        @media (max-width: 600px){
+
+                            .ping{
+                                margin-top: 81px;
+                                height: 17px;
+                                width: 56px;
+                              
+                            }
+                            
+                            .titre{   
+                                margin-top: 32px;
+                                width: 245px;
+
+                            }
+                            
+                            .launching{
+                                font-weight: 300;
+                                font-size: 22px;
+
+                            }
+                            
+                            .soon{
+                                font-weight: 700;
+                                font-size: 22px;
+                                line-height: 60px;
+                                text-align: center;
+                                color: #15202A;
+                            }
+                            
+                            .soustitre{
+                                margin-top: 12px;
+                                font-size: 12px;
+                            }
+                            
+                            .email{
+                                margin-top: 32px;
+                            }
+                            
+                            .champ{
+                                width: 281px;
+                                height: 40px;
+                            }
+                            .champ::placeholder{
+                                font-size: 12px;
+                            }
+
+                            .notify{
+                                margin-top: 10px;
+                                height: 40px;
+                                width: 282px;
+                                font-size: 12px;
+
+                            }
+                            
+                            .graph{
+                                margin-top: 72px;
+                                height: 192px;
+                                width: 320px;
+                            }
+                            
+                            .reseaux{
+                                Width: 120px;
+                                Height: 31px;
+                                margin-top: 72px;
+                            }
+                            
+                            .copyright{
+                                margin-top: 25px;
+                                font-size: 10px;
+          
+                            }
+                        }

@@ -1,0 +1,289 @@
+*{
+    font-family: karla;
+}
+
+body {
+    background-color: #e8eff5;
+    display: flex;
+    justify-content: center;
+    }
+
+#boite0{
+    width: 635px;
+    height: 475px;
+
+}
+
+
+.boite1{
+    border: solid 1px transparent;
+    height: 216px;
+    background-color: white;
+}
+.boite1 div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.join{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ab3b1;
+    margin-bottom: 24px;
+}
+
+.day{
+    font-style: normal;
+    font-weight: ;
+    font-size: 18px;
+    font-weight: 700;
+    color: #c0df33;
+    margin-bottom: 11px;
+}
+
+.gain{
+    color: #9aa7be;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 26px;
+}
+
+.boite2{
+    height: 259px;
+    display: flex;
+}
+
+.boite3{
+    width:318px;
+    background-color: #2ab3b1;
+}
+
+.monthly{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: -0.225px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+.prix{
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.dollars{
+    color: white;
+    float: left;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.4px;
+}
+
+.month{
+    margin-right: 40px;
+    margin-left: 10px;
+    color: #95d9d8;
+}
+
+.full{
+    margin-right: 40px;
+    margin-left: 40px;
+    color: white;
+    font-size: 14px ;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+.signup{
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 48px;
+    width: 237px;
+    color: white;
+    background-color: #c0df33;
+    border-radius: 8px;
+    box-shadow: 0px 3px #26a1a0;
+    border: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    font-family: karla;
+    cursor: pointer;
+}
+.boite4{
+    width: 318px;
+    background-color: #26a2a0;
+}
+.boite4 div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.why{
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.225px;
+    margin-bottom: 18px;
+}
+
+.texte{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.175px;
+    width: 160px;
+    line-height: 20px;
+
+}
+
+                @media (max-width: 600px) {
+                    #boite0{
+                        width: 311px;
+                        height: 722px;
+                    }
+                    
+                    
+                    .boite1{
+                        border: solid 1px transparent;
+                        height: 267px;
+                        width: 311px;
+                        background-color: white;
+                    }
+                    .boite1 div{
+                        margin-left: 24px;
+                        margin-right: 24px;
+                    }
+                            
+                            .join{
+                                margin-top: 28px;
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #2ab3b1;
+                                margin-bottom: 24px;
+                            }
+                            
+                            .day{
+                                font-style: normal;
+                                font-size: 15px;
+                                font-weight: 700;
+                                color: #c0df33;
+                                margin-bottom: 11px;
+                            }
+                            
+                            .gain{
+                                color: #9aa7be;
+                                font-weight: 400;
+                                font-size: 14px;
+                                letter-spacing: -0.2px;
+                                line-height: 26px;
+                                letter-spacing: -0.175px;
+                                line-height: 26px;
+                            }
+                            
+                    .boite2{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    
+                        .boite3{
+                            height: 228px;
+                            width: 311px;
+                            background-color: #2ab3b1;
+                        }
+
+
+                    
+                                .monthly{
+                                    margin-top: 24px;
+                                    color: white;
+                                    font-size: 18px;
+                                    letter-spacing: -0.225px;
+                                    margin-bottom: 18px;
+                                    font-weight: 700;
+                                    margin-left: 24px;
+                                }
+                                
+                                .prix{
+                                    display: flex;
+                                    margin-bottom: 4px;
+                                    justify-content: flex-start;
+                                    margin-left: 24px;
+                                }
+                                
+                                .dollars{
+                                    font-weight: 700;
+                                    font-size: 32px;
+                                    letter-spacing: -0.4px;
+                                    
+                                }
+                                
+                                .month{
+                                    margin-right: 40px;
+                                    margin-left: 10px;
+                                    color: #95d9d8;
+                                
+                                }
+
+                                .full{
+                                    margin-right: 24px;
+                                    margin-left: 24px;
+                                    color: white;
+                                    font-size: 16px ;
+                                    margin-bottom: 26px;
+                                    font-weight: 400;
+                                }
+                                
+                                .signup{
+                                    height: 48px;
+                                    width: 263px;
+                                    color: white;
+                                    background-color: #c0df33;
+                                    border-radius: 8px;
+                                    box-shadow: 0px 3px #26a1a0;
+                                    border: transparent;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    letter-spacing: -0.2px;
+                                    font-family: karla;
+                                    cursor: pointer;
+                                    margin-left: 24px;
+                                    margin-right: 24px;
+                    }
+                    .boite4{
+                        height: 227px;
+                        width: 311px;
+                        background-color: #26a2a0;
+                    }
+                    .boite4 div{
+                        margin-left: 28px;
+                        margin-right: 20px;
+                    }
+                    
+                                    .why{
+                                        margin-top: 24px;
+                                        color: white;
+                                        font-weight: 700;
+                                        font-size: 18px;
+                                        letter-spacing: -0.225px;
+                                        margin-bottom: 18px;
+                                    }
+                                    
+                                    .texte{
+                                        color: white;
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        letter-spacing: -0.175px;
+                                        width: 160px;
+                                        line-height: 20px;
+                                    }
+                                }
